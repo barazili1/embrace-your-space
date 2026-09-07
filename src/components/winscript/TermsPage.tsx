@@ -373,8 +373,13 @@ export function TermsPage({
               }
               setVerifying(true);
             }}
-            className={`btn-white h-13 rounded-xl text-base ${ready ? "animate-breathe" : "opacity-70"}`}
+            className={`relative flex h-12 w-full items-center justify-center gap-2 overflow-hidden rounded-xl border text-[14px] font-extrabold transition-all ${
+              ready
+                ? "border-neon/70 bg-neon/10 text-neon shadow-[0_0_22px_-6px_var(--neon)] animate-breathe"
+                : "border-neon/30 bg-neon/[0.05] text-neon/70"
+            }`}
           >
+            <span className="luxe-hairline-top" />
             <ShieldCheck className="h-4 w-4" />
             التحقق وتشغيل الاسكربت
           </button>
