@@ -279,12 +279,12 @@ export function TermsPage({
             <div className="mt-3 grid grid-cols-2 gap-2.5">
               <div className="luxe-card rounded-xl p-3 text-center">
                 <Banknote className="mx-auto h-4 w-4 text-neon" />
-                <p className="mt-1 text-sm font-black">300 EGP</p>
+                <p className="mt-1 text-sm font-black">200 EGP</p>
                 <p className="mt-0.5 text-[9px] text-muted-foreground">الجنيه المصري</p>
               </div>
               <div className="luxe-card rounded-xl p-3 text-center">
                 <BadgeDollarSign className="mx-auto h-4 w-4 text-neon" />
-                <p className="mt-1 text-sm font-black">$6 USD</p>
+                <p className="mt-1 text-sm font-black">$4 USD</p>
                 <p className="mt-0.5 text-[9px] text-muted-foreground">الدولار الأمريكي</p>
               </div>
             </div>
