@@ -272,7 +272,7 @@ export function TermsPage({
           <Step
             index={3}
             total={TOTAL}
-            title="إيداع 300 جنيه أو 6 دولار"
+            title="إيداع 200 جنيه أو 4 دولار"
             subtitle="الحد الأدنى لتشغيل الاسكربت"
             icon={<Banknote className="h-4 w-4" />}
           >
