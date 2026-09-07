@@ -42,13 +42,16 @@ export function GameShell({
             <span className="text-[11px] font-bold text-muted-foreground">User ID :</span>
             <span className="truncate text-sm font-black text-foreground">{userId || "—"}</span>
           </div>
-          <img
-            src={logo}
-            alt="1xBet Hack"
-            width={32}
-            height={32}
-            className="h-8 w-8 shrink-0 object-contain"
-          />
+          <div className="flex shrink-0 items-center gap-1.5 rounded-full border border-neon/30 bg-neon/[0.08] px-2.5 py-1">
+            <img
+              src={logo}
+              alt="1xBet"
+              width={20}
+              height={20}
+              className="h-5 w-5 object-contain"
+            />
+            <span className="text-[11px] font-black tracking-wide text-neon">1xBet</span>
+          </div>
         </div>
 
 
