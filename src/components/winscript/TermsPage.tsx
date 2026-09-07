@@ -238,9 +238,9 @@ export function TermsPage({
             <button
               type="button"
               onClick={copyPromo}
-              className="mt-3 flex h-10 w-full items-center justify-between gap-3 rounded-xl border border-dashed border-neon/40 bg-neon/[0.04] px-3 transition-colors hover:bg-neon/10"
+              className="mt-3 flex h-11 w-full items-center justify-between gap-3 rounded-xl border border-dashed border-neon/50 bg-neon/[0.06] px-3 transition-colors hover:bg-neon/12"
             >
-              <span className="text-xl font-black tracking-[0.3em] text-neon">{PROMO}</span>
+              <span className="text-2xl font-black tracking-[0.22em] text-neon drop-shadow-[0_0_8px_var(--neon)]">{PROMO}</span>
               <span className="flex items-center gap-1 text-[10px] font-bold text-neon">
                 <Copy className="h-3 w-3" />
                 نسخ الكود
